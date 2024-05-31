@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    .toggle {
+        display: block;
+        font-size: 4vw;
+        color: black;
+        justify-content: end;
+    }
+
+    .bluebox,
+    .whitebox,
+    .navbar ul,
+    #search,
+    .regi {
+        display: none;
+    }
+
+    .content-1 {
+        flex-wrap: wrap;
+    }
+
+    /* .row{
+        flex-wrap: wrap;
+        height: 80vh;
+
+    } */
+    .mainbox {
+        flex-flow: wrap column;
+
+    }
+
+    .box {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .headline2 {
+        margin: 0;
+    }
+
+    .number {
+        margin: 0;
+        padding: 0;
+        flex-flow: wrap column;
+        height: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogshead {
+        flex-flow: wrap column;
+        /* display:block; */
+        width: 100%;
+    }
+
+    .blogs {
+        flex-direction: column;
+        /* display: block; */
+        height: auto;
+        /* justify-content: space-between; */
+    }
+
+    .bigbox {
+        width: 100%;
+        flex-flow: wrap column;
+        height: auto;
+        /* width: 100%; */
+    }
+
+    .footernav {
+        flex-flow: wrap column;
+        width: auto;
+        height: auto;
+        /* padding: 0; */
+        /* display: block; */
+        text-align: center;
+        line-height: 1.5;
+
+    }
+
+    .footernav-right {
+        /* flex-direction: column; */
+        margin: 0;
+        /* justify-content: center; */
+
+    }
+}
